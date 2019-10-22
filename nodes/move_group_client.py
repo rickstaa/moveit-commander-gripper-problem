@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""A moveit planner client created for the moveit_commander_timing_problem issue"""
+"""A moveit planner client created for the moveit_commander_gripper_problem issue"""
 
 from __future__ import absolute_import
 from __future__ import division
@@ -14,7 +14,7 @@ import sys
 
 import rospy
 
-from moveit_commander_timing_problem.srv import PlanGripper, SetGripperOpen
+from moveit_commander_gripper_problem.srv import PlanGripper, SetGripperOpen
 
 if __name__ == "__main__":
 
