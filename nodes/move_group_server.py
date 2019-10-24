@@ -45,7 +45,7 @@ class MoveGroupTest:
 
         # Get move_group
         self.move_group_gripper = self.robot.get_group("hand")
-        self.move_group_gripper.set_planner_id("TRRTkConfigDefault")
+        # self.move_group_gripper.set_planner_id("TRRTkConfigDefault")
 
         # Created services
         rospy.Service(
